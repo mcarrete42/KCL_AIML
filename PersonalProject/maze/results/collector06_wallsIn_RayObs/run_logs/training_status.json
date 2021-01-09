@@ -1,0 +1,48 @@
+{
+    "Collector": {
+        "checkpoints": [
+            {
+                "steps": 508835,
+                "file_path": "results\\collector06_wallsIn_RayObs\\Collector\\Collector-508835.onnx",
+                "reward": null,
+                "creation_time": 1610055691.6436195
+            },
+            {
+                "steps": 519587,
+                "file_path": "results\\collector06_wallsIn_RayObs\\Collector\\Collector-519587.onnx",
+                "reward": null,
+                "creation_time": 1610055883.5741644
+            },
+            {
+                "steps": 544163,
+                "file_path": "results\\collector06_wallsIn_RayObs\\Collector\\Collector-544163.onnx",
+                "reward": null,
+                "creation_time": 1610056046.8434918
+            },
+            {
+                "steps": 585635,
+                "file_path": "results\\collector06_wallsIn_RayObs\\Collector\\Collector-585635.onnx",
+                "reward": null,
+                "creation_time": 1610056367.4565153
+            },
+            {
+                "steps": 739450,
+                "file_path": "results\\collector06_wallsIn_RayObs\\Collector\\Collector-739450.onnx",
+                "reward": -0.05000000074505806,
+                "creation_time": 1610057346.4118388
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 739450,
+            "file_path": "results\\collector06_wallsIn_RayObs\\Collector.onnx",
+            "reward": -0.05000000074505806,
+            "creation_time": 1610057346.4118388
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1",
+        "tensorflow_version": "2.4.0"
+    }
+}

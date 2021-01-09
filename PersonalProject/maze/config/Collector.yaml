@@ -1,0 +1,32 @@
+behaviors:
+  Collector:
+    # trainer_type: The type of trainer to use: ppo or sac
+    trainer_type: ppo   
+    hyperparameters:
+      # batch_size: Number of experiences in each iteration of gradient descent.
+      batch_size: 2048
+      # buffer size: Number of experiences to collect before updating the policy model.
+      #     Corresponds to how many experiences should be collected before we do any learning or updating of the model.   
+      buffer_size: 20480 
+      # learning_rate: Determines how learning rate changes over time
+      learning_rate: 0.0003
+    network_settings:
+      # normalize: Whether normalization is applied to the vector observation inputs. 
+      normalize: false
+      # hidden_units: Number of units in the hidden layers of the neural network. 
+      hidden_units: 256
+    reward_signals:
+      extrinsic:
+        # gamma: Discount factor for future rewards coming from the environment.  
+        gamma: 0.9
+        # strength: Factor by which to multiply the reward given by the environment. 
+        strength: 1.0
+    # keep_checkpoints: The maximum number of model checkpoints to keep.
+    keep_checkpoints: 5
+    # max_steps: Total number of steps (i.e., observation collected and action taken) that must be taken in the environment
+    #       (or across all environments if using multiple in parallel) before ending the training process.
+    max_steps: 5000000
+    # time_horizon: How many steps of experience to collect per-agent before adding it to the experience buffer.
+    time_horizon: 128
+
+    

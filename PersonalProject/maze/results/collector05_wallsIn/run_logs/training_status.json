@@ -1,0 +1,42 @@
+{
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1",
+        "tensorflow_version": "2.4.0"
+    },
+    "Collector": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\collector05_wallsIn\\Collector\\Collector-0.onnx",
+                "reward": null,
+                "creation_time": 1610045123.183431
+            },
+            {
+                "steps": 56284,
+                "file_path": "results\\collector05_wallsIn\\Collector\\Collector-56284.onnx",
+                "reward": 0.0,
+                "creation_time": 1610045362.9971044
+            },
+            {
+                "steps": 85768,
+                "file_path": "results\\collector05_wallsIn\\Collector\\Collector-85768.onnx",
+                "reward": 0.0,
+                "creation_time": 1610046822.9084835
+            },
+            {
+                "steps": 496468,
+                "file_path": "results\\collector05_wallsIn\\Collector\\Collector-496468.onnx",
+                "reward": 0.0,
+                "creation_time": 1610049502.0833054
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 496468,
+            "file_path": "results\\collector05_wallsIn\\Collector.onnx",
+            "reward": 0.0,
+            "creation_time": 1610049502.0833054
+        }
+    }
+}
